@@ -1,5 +1,5 @@
 {
-  "name": "@hexlet/code",
+  "name": "package.json",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/GalinaSlepcova/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/GalinaSlepcova/frontend-project-44/actions)",
   "main": "index.js",
@@ -11,5 +11,9 @@
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3"
   }
 }
