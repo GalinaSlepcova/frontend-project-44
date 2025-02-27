@@ -8,12 +8,15 @@
   },
   "author": "",
   "license": "ISC",
-  "type":"module",
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
   "devDependencies": {
     "@types/node": "^22.13.5",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
