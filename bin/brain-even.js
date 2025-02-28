@@ -1,19 +1,8 @@
-function resetGame() {
-    guessCount = 1;
-  
-    var resetParas = document.querySelectorAll(".resultParas p");
-    for (var i = 0; i < resetParas.length; i++) {
-      resetParas[i].textContent = "";
-    }
-  
-    resetButton.parentNode.removeChild(resetButton);
-  
-    guessField.disabled = false;
-    guessSubmit.disabled = false;
-    guessField.value = "";
-    guessField.focus();
-  
-    lastResult.style.backgroundColor = "white";
-  
-    randomNumber = Math.floor(Math.random() * 20) + 1;
-  }
+
+// eslint-disable-next-line no-undef
+var num = promt('Answer "yes" if the number is even, otherwise answer "no".', 15);
+if (num%2==0) {
+  alert("число" + num + "четное");
+} else {
+  alert("число" + num + "нечетное");
+};
