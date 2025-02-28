@@ -1,4 +1,5 @@
-
+import readlineSync from 'readline-sync';
 export const isEven = (number) => {
-    number % 2 === 0;
+    var level = readlineSync.number(number % 2 === 0);
+    console.log(level);
 } ;
