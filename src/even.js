@@ -1,4 +1,8 @@
 export const isEven = (num) => {
-    var level = num% 2 === 0;
-    console.log(level);
+    let number = "четное";
+    if(num% 2 === 0) {
+        console.log('Correct!');
+    } else {
+        console.log(number);
+    };
 } ;
