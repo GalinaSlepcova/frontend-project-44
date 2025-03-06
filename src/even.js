@@ -1,10 +1,6 @@
 import readlineSync from 'readline-sync';
-console.log('Welcome to the Brain Games!');
- const question = readlineSync.question('May I have your name? ');
- const GamerName = question;
- export const userName = () => {
-    console.log(`Hello, ${GamerName}!`);
- }
+console.log("Welcome to the Brain Games!");
+import { userName } from "../src/cli.js"
 
   const theRandom = (max) => {
     return Math.floor(Math.random() * max);
