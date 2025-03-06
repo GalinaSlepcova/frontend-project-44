@@ -21,6 +21,6 @@ export const isEven = () => {
         const assumption = (gameUser === 'yes' ? 'no' : 'yes');
         const errorMessage = `"${gameUser}" is wrong answer ;(. Correct answer was '${assumption}'. /n Let's try again, ${userName}!`;
         return errorMessage;
-      }
-    }
+      };
+    };
 };
