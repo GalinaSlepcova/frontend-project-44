@@ -15,7 +15,7 @@ export const isEven = () => {
      
         const answer1 = (number % 2 === 0) && (gameUser === 'yes');
         const answer2 = (number % 2 !== 0) && (gameUser === 'no');
-    if (answer1 === true || answer2 === true) {
+    if (answer1 === 0 || answer2 === 0) {
         console.log('Correct!');
       } else {
         const assumption = (gameUser === 'yes' ? 'no' : 'yes');
