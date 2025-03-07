@@ -22,7 +22,7 @@ export const isEven = () => {
     if (answer1  || answer2) {
         console.log('Correct!');
       } else {
-        const errorMessage = `"${gameUser}" is wrong answer ;(. Correct answer was ';('. /n Let's try again, "${userName}"!`;
+        const errorMessage = `"${gameUser}" is wrong answer ;(. Correct answer was ';('. /n Let's try again!`;
         console.log(errorMessage);
         return errorMessage;
       };
