@@ -15,10 +15,9 @@ export const isEven = () => {
      
         const answer1 = (number % 2 === 0) && (gameUser === 'yes');
         const answer2 = (number % 2 !== 0) && (gameUser === 'no');
-    if (answer1 === 0 || answer2 === 0) {
+    if (answer1 === true || answer2 === true) {
         console.log('Correct!');
       } else {
-        const assumption = (gameUser === 'yes' ? 'no' : 'yes');
         const errorMessage = `"${gameUser}" is wrong answer ;(. Correct answer was '${assumption}'. /n Let's try again, ${userName}!`;
         return errorMessage;
       };
